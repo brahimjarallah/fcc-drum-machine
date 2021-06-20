@@ -70,7 +70,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="drum-machine">
+      <div className="drum-machine" id="drum-machine">
         <div id="display">{this.state.display}</div>
         {data.map((d) => (
           <DrumPad
